@@ -1,0 +1,30 @@
+{
+    "format_version" : 2,
+    "header" : {
+        "name" : "The Tree feller",
+        "description" : "Automatically chops connected tree logs.",
+        "uuid" : "7c4e0f9a-8c7b-4d8e-a5c1-29f4e6b7d812",
+        "version" : [ 1, 0, 0 ],
+        "min_engine_version" : [ 1, 21, 130 ]
+    },
+    "modules" : [
+        {
+            "type" : "data",
+            "uuid" : "b91d6a32-4f58-47c3-9e21-8a7d5c0b6149",
+            "version" : [ 1, 0, 0 ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "e2f7c641-91a3-4b5d-8c72-6f0e9a314b58",
+            "version": [1, 0, 0],
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.4.0"
+        }
+    ]
+}
